@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.mainContainer{
+ background-color:thistle;
+     height: 100vh; 
+    
+  margin: auto;
+  width: 54%;
+  /* border: 3px solid green; */
+  border-radius: 0.3rem;
+  padding: 10px;
+
+}
+.form{
+    /* background-color: aqua; */
+    padding: 10px 10px 10px 136px;
+}
+#firstInput{
+    padding: 0.4rem;
+    color: black;
+    outline: none;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border-radius: 0.3rem;
+    width: 18rem;
+    margin-right: 1rem;
+}
+#addButton{
+   padding: 0.4rem;
+    color: black;
+    outline: none;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.3rem; 
+    background-color: rgb(196, 196, 38);
+}
+
+
+
+.contentContainer{
+    padding: 50px 10px 10px 136px;
+}
+h1{
+    padding: 50px 10px 10px 136px;
+    color:darkslateblue;
+    font-size:xx-large;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.secondInput{
+     padding: 0.4rem;
+    color: black;
+    outline: none;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border-radius: 0.3rem;
+    width: 18rem;
+    margin-right: 1rem;
+}
+.editSaveButton{
+  padding: 0.4rem;
+    color: black;
+    outline: none;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.3rem; 
+    background-color: rgb(196, 196, 38); 
+}
+.deleteButton{
+    padding: 0.4rem;
+    color: black;
+    outline: none;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.3rem; 
+    background-color: rgb(196, 196, 38);
+}
