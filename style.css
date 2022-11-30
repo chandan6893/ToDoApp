@@ -3,20 +3,25 @@
     box-sizing: border-box;
     padding: 0;
 }
+body{
+    background-color: thistle;
+}
 .mainContainer{
- background-color:thistle;
+ /* background-color:thistle; */
      height: 100vh; 
     
   margin: auto;
-  width: 54%;
+  width: 66%;
   /* border: 3px solid green; */
   border-radius: 0.3rem;
   padding: 10px;
-
+ display: flex;
+ flex-direction: column;
 }
 .form{
     /* background-color: aqua; */
     padding: 10px 10px 10px 136px;
+    display: flex;
 }
 #firstInput{
     padding: 0.4rem;
@@ -49,6 +54,7 @@ h1{
     font-size:xx-large;
     font-weight: 900;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .secondInput{
      padding: 0.4rem;
@@ -58,16 +64,19 @@ h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     border-radius: 0.3rem;
     width: 18rem;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
 }
 .editSaveButton{
-  padding: 0.4rem;
+  padding: 0.4rem 1rem 0.4rem 1rem;
     color: black;
     outline: none;
     font-size: large;
     font-family:Georgia, 'Times New Roman', Times, serif;
     border-radius: 0.3rem; 
-    background-color: rgb(196, 196, 38); 
+    background-color:darkgreen; 
+    margin-right: 0.5rem;
+    /* border: none; */
 }
 .deleteButton{
     padding: 0.4rem;
@@ -76,5 +85,5 @@ h1{
     font-size: large;
     font-family:Georgia, 'Times New Roman', Times, serif;
     border-radius: 0.3rem; 
-    background-color: rgb(196, 196, 38);
+    background-color:darkred;
 }
